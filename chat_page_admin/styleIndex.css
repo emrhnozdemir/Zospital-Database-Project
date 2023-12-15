@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    transition: 0.3s cubic-bezier(0, 0, 0.2, 1);
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background: linear-gradient(180deg , #FDFFF7, #FBFFFD);
+    background-repeat: no-repeat;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    padding: 1.5em;
+    background: #FFFFFF;
+}
+
+header h1 {
+    padding: 0.25em;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #329c15;
+}
+
+header h2 {
+    color: #174909;
+    padding-bottom: 1em;
+}
+
+.main-menu {
+    
+}
+
+.main-menu-item {
+    margin: 1em;
+}
+
+.main-menu-item a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.inner-page-top {
+    margin: 2.5em 1em 0 1em;
+}
+
+.inner-page-head {
+    padding: 1em;
+    background: #124904;
+}
+
+.inner-page-head a {
+    font-size: 18px;
+    color: #F4FFF1;
+    text-decoration: none;
+}
+
+.item-list-contanier {
+    max-width: 1200px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-list-table {
+    justify-content: space-between;
+    border-radius: 0.25em;
+    padding: 2em 2.5em;
+    list-style: none;
+}
+
+.item-list-table-header {
+    display: flex;
+    background-color: #B6F2A7;
+    box-shadow: 0 0 0.75em 0 rgba(0,0,0,0.1);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    margin: 0.75em;
+    padding: 1.25em 0.75em;
+    border-radius: 0.5em;
+}
+
+.item-row {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 0 0.75em 0 rgba(0,0,0,0.1);
+    margin: 0.75em;
+    padding: 0.75em;
+    border-radius: 0.5em;
+}
+
+.item-col-5 {
+    flex-basis: 5%;
+}
+
+.item-col-10 {
+    flex-basis: 10%;
+}
+
+.item-col-15 {
+    flex-basis: 15%;
+}
+
+.item-col-20 {
+    flex-basis: 20%;
+}
+
+.item-col-25 {
+    flex-basis: 25%;
+}
+
+.item-col-30 {
+    flex-basis: 30%;
+}
+
+.item-col-40 {
+    flex-basis: 40%;
+}
+
+input {
+    padding: 0.75em 1em;
+    border-radius: 1em;
+    border: 1px solid #A8DE9A;
+}
+
+input:hover {
+    border: 2px solid #2F5C24;
+}
+
+.inputI input {
+    width: 25em;
+    display: block;
+    margin-top: 1em;
+}
+
+.disease {
+    padding: 0.25em;
+}
+
+.disease:hover {
+    transform: scale(1.1);
+}
+
+.dCode, .dRisk {
+    color: #a0d89d;
+    margin: 0.5em;
+}
+
+.dName {
+    color: #ff7400;
+    margin: 1em;
+}
+
+#navigator {
+    margin-bottom: 4em;
+}
+
+#navigator h3 {
+    margin: 1em;
+}
+
+#navigator div {
+    padding: 0.25em;
+}
+
+#navigator div a {
+    text-decoration: none;
+    color: #16490A;
+}
+    
+.button {
+    margin-top: 2em;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    box-shadow: rgb(0 0 0 / 2%) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #204f04d9;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+    text-decoration: none;
+}
+
+.button:hover, .button:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.button:hover {
+    transform: translateY(-1px);
+}
+
+.button:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.inputI {
+    margin: 1em;
+}
